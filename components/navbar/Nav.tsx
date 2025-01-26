@@ -2,7 +2,7 @@
 
 import { Navlinks } from "@/constant/constant";
 import Link from "next/link";
-import { Menu, MenuIcon, Search, ShoppingCart } from "lucide-react";
+import { MenuIcon, Search, ShoppingCart } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Props = {

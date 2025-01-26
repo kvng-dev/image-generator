@@ -1,5 +1,4 @@
 import { Navlinks } from "@/constant/constant";
-import { link } from "fs";
 import { XIcon } from "lucide-react";
 import Link from "next/link";
 

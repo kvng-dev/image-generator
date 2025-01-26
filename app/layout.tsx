@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Outfit } from "next/font/google";
+import {  Outfit } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/navbar/ResponsiveNav";
 import { Toaster } from "sonner";

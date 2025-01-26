@@ -5,13 +5,17 @@ const About = () => {
   return (
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
-        <div className="order-2 h-[600px] xl:order-1">
+        <div
+          className="order-2 h-[600px] xl:order-1"
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+        >
           <Image
             src="/images/about.jpg"
             alt="abt"
             width={400}
             height={400}
-            className="rounded-lg w-full"
+            className="rounded-lg w-full h-full object-cover"
           />
         </div>
         <div className="order-1 xl:order-2">

@@ -3,6 +3,7 @@ import { Roboto, Outfit } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/navbar/ResponsiveNav";
 import { Toaster } from "sonner";
+import Footer from "@/components/Footer";
 
 const font = Outfit({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${font.className} bg-gray-900 antialiased`}>
         <ResponsiveNav />
         {children}
+        <Footer />
         <Toaster />
       </body>
     </html>

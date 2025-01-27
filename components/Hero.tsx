@@ -5,7 +5,6 @@ import axios from "axios";
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import { Loader } from "lucide-react";
-import Image from "next/image";
 
 const Hero = () => {
   const [prompt, setPrompt] = useState("");
@@ -97,7 +96,7 @@ const Hero = () => {
         )}
         {image && (
           <div className="mt-8 flex flex-col items-center">
-            <Image
+            <img
               src={image}
               alt="ai-image"
               className="max-w-full h-[500px] rounded-lg shadow-lg"
